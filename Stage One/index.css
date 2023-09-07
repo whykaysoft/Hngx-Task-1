@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+[data-testid = "slackUserName"] {
+    font-family: Helvetica;
+}  
+
+h2{
+    background-color: #E7A851;
+    color: #000;
+    height: 40px;
+    font-weight: 600;
+    padding: 15px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    width: 245px;
+    border-radius: 3px;
+}
+
+[data-testid = "slackUserContainer"] {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 140px;
+}
+
+[data-testid="myTrack"] {
+    font-family: Helvetica;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+a {
+    color:  #E7A851;
+    text-decoration: none;
+}
+
+a.clicked {
+    color: #fff;
+}
